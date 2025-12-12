@@ -107,7 +107,7 @@ function Validacion() {
                     </label>
                     <input
                         id="anio"
-                        type="text"
+                        type="number"
                         value={formData.anio}
                         onChange={handleChange}
                         aria-invalid={!!error}
