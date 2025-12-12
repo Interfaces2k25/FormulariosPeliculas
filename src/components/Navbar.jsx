@@ -10,7 +10,7 @@ function Navbar() {
   <header className="w-full bg-white p-4 shadow-md">
     
     {/* Botón hamburguesa que sea invisible en pantallas medianas y grandes */}
-    <button onClick={() => setOpen(!open)} className="text-3xl md:hidden" aria-lablel="Menú hamburguesa" 
+    <button onClick={() => setOpen(!open)} className="text-3xl md:hidden" aria-label="Menú hamburguesa" 
     aria-expanded={open} aria-controls="menu-movil">☰</button>
 
     {/* NavBar normal en pantallas medianas y grandes, en pequeñas que se esconda */}
@@ -20,6 +20,8 @@ function Navbar() {
       <Link to="/peliculas" className="hover:underline">Películas</Link>
       <Link to="/interpretes" className="hover:underline">Intérpretes</Link>
       <Link to="/admin" className="hover:underline">Admin</Link>
+      <Link to="/formulariodiscos" className="hover:underline">Formulario Discos</Link>
+      <Link to="/validacion" className="hover:underline">Formulario Discos Validado</Link>
     </nav>
 
     {/* Desplegable del menú hamburguesa */}
@@ -29,6 +31,8 @@ function Navbar() {
                 <NavLink to="/peliculas"  className="hover:underline" onClick={() => setOpen(false)}>Películas</NavLink>
                 <NavLink to="/interpretes"  className="hover:underline" onClick={() => setOpen(false)}>Intérpretes</NavLink>
                 <NavLink to="/admin"  className="hover:underline" onClick={() => setOpen(false)}>Admin</NavLink>
+                <NavLink to="/formulariodiscos"  className="hover:underline" onClick={() => setOpen(false)}>Formulario Discos</NavLink>
+                <NavLink to="/validacion"  className="hover:underline" onClick={() => setOpen(false)}>Formulario Discos Validado</NavLink>
             </nav>
   </header>
   );

@@ -9,6 +9,8 @@ import Inicio from "./pages/Inicio";
 import Admin from "./pages/Admin";
 import DetallePelicula from "./pages/DetallePelicula.jsx"
 import DetalleInterprete from "./pages/DetalleInterprete.jsx"
+import FormularioDiscos from "./pages/FormularioDiscos.jsx"
+import Validacion from "./pages/Validacion.jsx"
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
             <Route path="/peliculas" element={<Pelicula />} />
             <Route path="/peliculas/:id" element={<DetallePelicula />} />
             <Route path="/admin" element={<Admin />} />
+            <Route path="/formulariodiscos" element={<FormularioDiscos/>} />
+            <Route path="/validacion" element={<Validacion/>} />
           {/* </Route> */}
 
           {/* <Route path="*" element={<ErrorPage />} /> */}
