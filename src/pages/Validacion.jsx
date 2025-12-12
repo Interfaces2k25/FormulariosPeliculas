@@ -43,7 +43,7 @@ function Validacion() {
             return;
         }
         if (!formData.localizacion.match(/^ES-\d{3}[A-Z]{2}$/)) {
-            setError("La localización debe tener dos letras mayúsculas, guión (-) y tres dígitos seguidos de dos letras mayúsculas.");
+            setError("La localización debe empezar por ES- seguido de tres dígitos y de dos letras mayúsculas.");
             return;
         }
         setError("");
