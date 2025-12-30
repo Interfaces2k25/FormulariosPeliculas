@@ -1,7 +1,6 @@
 function Layout({ children }) {
 // Contenedor para que las Card se alineen en el centro de la pantalla
   return (
-    <>
       <main
         id="main-content"
         role="main"
@@ -12,7 +11,6 @@ function Layout({ children }) {
           {children}
         </section>
       </main>
-    </>
   )
 }
 
