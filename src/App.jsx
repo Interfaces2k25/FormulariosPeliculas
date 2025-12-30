@@ -35,11 +35,11 @@ function App() {
           </Route>
 
 
-          {/* <Route path="/formulariodiscos" element={<FormularioDiscos />} />
+          <Route path="/formulariodiscos" element={<FormularioDiscos />} />
           <Route path="/validacion" element={<Validacion />} />
           <Route path="/peliculaControlado" element={<FormularioPeliculaControlado />} />
           <Route path="/peliculaNoControlado" element={<FormularioPeliculaNoControlado />} />
-          <Route path="/añadirInterprete" element={<FormularioInterprete />} /> */}
+          <Route path="/añadirInterprete" element={<FormularioInterprete />} />
 
           {/* <Route path="*" element={<ErrorPage />} /> */}
         </Routes>

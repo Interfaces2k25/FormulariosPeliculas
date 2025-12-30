@@ -7,13 +7,13 @@ function Admin() {
     return (
         <div>
             <button>
-                <a href="/" className="text-black hover:underline ml-4 bg-white p-2 rounded-2xl">← Volver al inicio</a>
+                <a href="/" className="p-2 ml-4 text-black bg-white hover:underline rounded-2xl">← Volver al inicio</a>
             </button>
-            <nav>
+            {/* <nav>
             <Link to={"formulariodiscos"}>Añadir Disco Controlado</Link>
-            </nav>
+            </nav> */}
            
-            {/* <NavbarAdmin/> */}
+            <NavbarAdmin/>
 
             <Outlet/>
         </div>
